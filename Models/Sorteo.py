@@ -14,5 +14,10 @@ class Sorteo:
     bote = 0
     recaudacion = 0
     premios = 0
-    
+    escrutinio = []
+
+    def numeros(self):
+        return [self.numero1,self.numero2,self.numero3,self.numero4,self.numero5]
+    def estrellas(self):
+        return [self.estrella1,self.estrella2]   
 
